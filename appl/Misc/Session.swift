@@ -14,6 +14,6 @@ class Session {
     
     static let instance = Session()
     
-    var token: String = "" //для хранения токена в VK,
+    var token: String = "" //для хранения токена в VK
     var userId: Int = 0 //для хранения идентификатора пользователя ВК.
 }
